@@ -3,3 +3,6 @@
   --secondary-font: "Montserrat", sans-serif;
   --primary-color: #f7d8d8;
 }
+body {
+  background-color: var(--primary-color);
+}
