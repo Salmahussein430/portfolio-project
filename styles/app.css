@@ -31,6 +31,63 @@ h2 {
   background-color: var(--secondary-color);
   color: white;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px 20px 10px 20px;
+}
+.btn-branding:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.text-center {
+  font-family: var(--heading-font);
+  font-size: 14px;
+  padding: 50px 0;
+  font-weight: normal;
+}
+
+.project-heading {
+  font-family: var(--nameheading-font);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.btn-project {
+  font-size: 16px;
+  background-color: white;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+}
+.btn-project:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+p {
+  font-family: var(--heading-font);
+  font-size: 16px;
+  font-weight: normal;
+}
+@media (max-width: 576px) {
+  .hero p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 52px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .btn-project {
+    display: block;
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
 }
