@@ -113,10 +113,25 @@ h5 {
 }
 .contact-para {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
 }
 .contact-button {
   border-radius: 10px;
+}
+
+.socials-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+}
+
+.socials-links a:hover {
+  color: white;
+  background: var(--secondary-color);
 }
 @media (max-width: 576px) {
   .hero p {
