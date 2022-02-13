@@ -133,6 +133,43 @@ h5 {
   color: white;
   background: var(--secondary-color);
 }
+
+.about-me {
+  padding: 120px 20px;
+}
+.about-section {
+  padding-right: 50px;
+}
+.about-header {
+  font-size: 36px;
+}
+.name {
+  font-size: 48px;
+}
+
+.subheader {
+  font-size: 18px;
+  margin-top: -10px;
+}
+.about-me-para {
+  font-size: 18px;
+}
+.about-project {
+  font-size: 18px;
+  background-color: white;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 10px 25px 10px 25px;
+}
+.about-project:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.photo {
+  width: 450px;
+}
 @media (max-width: 576px) {
   .hero p {
     font-size: 22px;
@@ -174,15 +211,49 @@ h5 {
     font-weight: bold;
     line-height: 50px;
   }
+  .email-link {
+    font-size: 16px;
+  }
+  .socials-link {
+    font-size: 14px;
+  }
 
   .contact-para {
     font-size: 14px;
   }
 
-  .contact-button {
-    font-size: 14px;
+  a .contact-button {
+    font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 40px;
+  }
+
+  .about-me {
+    text-align: center;
+    padding: 0;
+  }
+  .about-header {
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  .name {
+    font-size: 32px;
+  }
+  .subheader {
+    font-size: 14px;
+  }
+  .about-me-para {
+    font-size: 14px;
+  }
+  .about-project {
+    font-size: 14px;
+
+    padding: 8px 16px 8px 16px;
+  }
+  .photo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
   }
 }
