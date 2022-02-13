@@ -8,6 +8,7 @@
   background-color: #fcebeb;
   text-align: center;
   padding: 160px 0;
+  margin: 50px 10px;
 }
 .hero p {
   font-size: 24px;
@@ -34,7 +35,9 @@ h2 {
   border-radius: 4px;
   font-size: 18px;
   padding: 15px 25px 15px 25px;
+  transition: all 150ms ease-in-out;
 }
+
 .btn-branding:hover {
   background-color: white;
   color: var(--secondary-color);
@@ -47,11 +50,26 @@ h2 {
   padding: 50px 0;
   font-weight: normal;
 }
+.project-description {
+  padding: 40px 80px;
+}
 
 .project-heading {
   font-family: var(--nameheading-font);
   font-weight: 700;
   font-size: 40px;
+}
+
+.podcast-image {
+  width: 400px;
+  background-color: var(--primary-color);
+  padding: 20px 30px;
+}
+
+.weather-image {
+  width: 450px;
+  background-color: var(--primary-color);
+  padding: 20px 20px;
 }
 
 .btn-project {
@@ -61,7 +79,9 @@ h2 {
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
   padding: 10px 25px 10px 25px;
+  transition: all 150ms ease-in-out;
 }
+
 .btn-project:hover {
   background-color: var(--secondary-color);
   color: white;
@@ -72,7 +92,9 @@ h2 {
   color: black;
   font-size: 20px;
   font-family: var(--heading-font);
+  transition: all 150ms ease-in-out;
 }
+
 .email-link:hover {
   color: var(--secondary-color);
 }
@@ -84,11 +106,11 @@ p {
 }
 
 h5 {
-  font-size: 48px;
+  font-size: 55px;
   font-family: var(--nameheading-font);
   font-weight: bold;
-  margin-top: 200px;
-  margin-left: 140px;
+  margin-top: 60px;
+  padding-top: 50px;
 }
 
 .content-box {
@@ -117,6 +139,7 @@ h5 {
 }
 .contact-button {
   border-radius: 10px;
+  transition: all 150ms ease-in-out;
 }
 
 .socials-links a {
@@ -137,18 +160,16 @@ h5 {
 .about-me {
   padding: 120px 90px;
 }
-.about-section {
-  padding-right: 50px;
-}
+
 .about-header {
-  font-size: 36px;
+  font-size: 40px;
 }
 .name {
-  font-size: 48px;
+  font-size: 52px;
 }
 
 .subheader {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: -10px;
 }
 .about-me-para {
@@ -174,7 +195,19 @@ h5 {
 .about-content-box {
   margin-top: -20px;
 }
+
+.contact-hero {
+  background-color: var(--primary-color);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  margin: 50px 10px;
+}
 @media (max-width: 576px) {
+  .hero {
+    margin: 80px 10px;
+    padding: 100px 0;
+  }
   .hero p {
     font-size: 22px;
   }
@@ -187,17 +220,33 @@ h5 {
     font-size: 16px;
     margin-top: 0;
   }
+  .project-description {
+    margin-top: -80px;
+    padding: 20px;
+  }
+  .project-heading {
+    font-size: 36px;
+  }
+  .para {
+    font-size: 16px;
+  }
+  .btn-branding {
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+  }
   .btn-project {
     display: block;
     text-align: center;
+    font-size: 16px;
   }
   h4 {
     text-align: center;
   }
   h5 {
-    font-size: 38px;
-    margin-left: 40px;
+    font-size: 28px;
+    margin-top: -20px;
   }
+
   .content-box {
     margin-left: 40px;
     margin-right: 40px;
@@ -213,7 +262,6 @@ h5 {
     font-size: 24px;
     font-family: var(--nameheading-font);
     font-weight: bold;
-    line-height: 50px;
   }
   .email-link {
     font-size: 16px;
@@ -235,20 +283,20 @@ h5 {
 
   .about-me {
     text-align: center;
-    padding: 0;
+    padding: 0 10px;
   }
   .about-header {
-    font-size: 24px;
+    font-size: 28px;
     padding-top: 30px;
   }
   .name {
-    font-size: 32px;
+    font-size: 38px;
   }
   .subheader {
-    font-size: 14px;
+    font-size: 16px;
   }
   .about-me-para {
-    font-size: 14px;
+    font-size: 16px;
   }
   .about-project {
     font-size: 14px;
@@ -259,5 +307,13 @@ h5 {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 300px;
+  }
+
+  .contact-hero {
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: 80px 30px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
