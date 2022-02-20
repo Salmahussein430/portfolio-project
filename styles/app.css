@@ -1,7 +1,7 @@
 :root {
   --heading-font: "Poppins", sans-serif;
   --nameheading-font: "Playfair Display", serif;
-  --primary-color: #f7d8d8;
+  --primary-color: #fcebeb;
   --secondary-color: #eb6e4b;
 }
 .hero {
@@ -157,7 +157,7 @@ h5 {
   background: var(--secondary-color);
 }
 
-.about-me {
+.content {
   padding: 120px 90px;
 }
 
@@ -203,6 +203,40 @@ h5 {
   padding-bottom: 20px;
   margin: 50px 10px;
 }
+
+.content h6 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--heading-font);
+  text-align: center;
+  margin-top: 20px;
+}
+.content p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: var(--heading-font);
+  text-align: center;
+}
+
+.podcast {
+  width: 600px;
+  background-color: var(--primary-color);
+  padding: 15px 80px;
+  margin-top: 50px;
+}
+.weather {
+  width: 600px;
+  background-color: var(--primary-color);
+  padding: 40px 15px;
+  margin-top: 50px;
+}
+.portfolio {
+  width: 600px;
+  background-color: var(--primary-color);
+  padding: 55px 15px;
+  margin-top: 50px;
+}
+
 @media (max-width: 576px) {
   .hero {
     margin: 80px 10px;
@@ -281,15 +315,16 @@ h5 {
     margin-left: 40px;
   }
 
-  .about-me {
+  .content {
     text-align: center;
     padding: 0 10px;
   }
+
   .about-header {
     font-size: 28px;
     padding-top: 30px;
   }
-  .name {
+  .content-header {
     font-size: 38px;
   }
   .subheader {
@@ -315,5 +350,30 @@ h5 {
     margin: 80px 30px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+  .podcast {
+    width: 400px;
+    background-color: var(--primary-color);
+    padding: 15px 80px;
+    margin-top: 50px;
+  }
+  .weather {
+    width: 400px;
+    background-color: var(--primary-color);
+    padding: 55px 15px;
+    margin-top: 50px;
+  }
+  .portfolio {
+    width: 400px;
+    background-color: var(--primary-color);
+    padding: 55px 15px;
+    margin-top: 50px;
+  }
+
+  .view-button {
+    margin-top: -20px;
+  }
+  .view-button-last {
+    margin-bottom: 50px;
   }
 }
