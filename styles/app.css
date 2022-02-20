@@ -4,11 +4,11 @@
   --primary-color: #fcebeb;
   --secondary-color: #eb6e4b;
 }
+
 .hero {
   background-color: #fcebeb;
   text-align: center;
   padding: 160px 0;
-  margin: 50px 10px;
 }
 .hero p {
   font-size: 24px;
@@ -51,7 +51,7 @@ h2 {
   font-weight: normal;
 }
 .project-description {
-  padding: 40px 80px;
+  padding: 0 50px;
 }
 
 .project-heading {
@@ -63,13 +63,13 @@ h2 {
 .podcast-image {
   width: 400px;
   background-color: var(--primary-color);
-  padding: 20px 30px;
+  padding: 15px 50px;
 }
 
 .weather-image {
   width: 450px;
   background-color: var(--primary-color);
-  padding: 20px 20px;
+  padding: 50px 15px;
 }
 
 .btn-project {
@@ -109,7 +109,7 @@ h5 {
   font-size: 55px;
   font-family: var(--nameheading-font);
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 10px;
   padding-top: 50px;
 }
 
@@ -173,7 +173,7 @@ h5 {
   margin-top: -10px;
 }
 .about-me-para {
-  font-size: 18px;
+  font-size: 16px;
 }
 .about-project {
   font-size: 18px;
@@ -189,7 +189,7 @@ h5 {
 }
 
 .photo {
-  width: 400px;
+  width: 500px;
 }
 
 .about-content-box {
@@ -201,7 +201,7 @@ h5 {
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 20px;
-  margin: 50px 10px;
+  margin: 10px 50px;
 }
 
 .content h6 {
@@ -215,13 +215,16 @@ h5 {
   font-size: 16px;
   font-weight: normal;
   font-family: var(--heading-font);
+}
+
+.tools {
   text-align: center;
 }
 
 .podcast {
   width: 600px;
   background-color: var(--primary-color);
-  padding: 15px 80px;
+  padding: 15px 50px;
   margin-top: 50px;
 }
 .weather {
@@ -236,10 +239,43 @@ h5 {
   padding: 55px 15px;
   margin-top: 50px;
 }
+nav {
+  padding: 20px 0;
+}
 
+nav .logo {
+  font-weight: bold;
+  margin: 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--heading-font);
+  line-height: 40px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+nav li:active a {
+  color: var(--secondary-color);
+}
 @media (max-width: 576px) {
   .hero {
-    margin: 80px 10px;
     padding: 100px 0;
   }
   .hero p {
